@@ -1,18 +1,27 @@
-#Installation
-Python 3 should run the code with no problems. No libraries are necessary beyoed the Anaconda distribution of Python.
+Installation
+============
+Python 3 should run the code with no problems. No libraries are necessary beyond the Anaconda distribution of Python.
 
-#Project Motivation
-I wanted to better understand the NBA shot behavior, and specifically these questions:
+Project Motivation
+============
+I wanted to use machine learning to improve Starbucks Rewards Program, and specifically answer these questions:
 
-How does the shooting behavior differ when playing at home vs. away?
-Is height an advantage when taking a shot?
-What factors are important to make good shots?
+1. Could we predict whether a member would be completing the offers sent to him/her based solely on the demographics of that member?
+2. Could we predict the time a member would take to complete the offer?
+3. Could we predict whether a member would complete the offer based on demographics AND the offer type?
 
-#File Descriptions
-There are two notebooks here. The first one is just preparaing the data. The second one includes the analysis and modeling.
+File Descriptions
+============
+There is one notebook here with all the work as well as the files for the data used in the project.
 
-#Results
-This post includes the results of this analysis.
+Results
+============
+1. Predicting offer completion based on demographics only yielded poor to fair results.
+2. Predicting the time a member would take to complete an offer was difficult but yielded sensible results.
+3. Predicting offer completion based on demographics and offer type yielded good results. 
 
-#Licensing, Authors, Acknowledgments
-I would like to thank William Luce for providing the data for player heights and uploading it to Kaggle.
+This [post](https://medium.com/@amismail95/improving-starbucks-rewards-program-through-machine-learning-7d1f34849f9b) includes detailed results of this analysis.
+
+Licensing, Authors, Acknowledgments
+============
+I would like to thank Udacity for providing the project as well as the data.
